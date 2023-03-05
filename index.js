@@ -7,7 +7,10 @@ const rateButtonFive = document.querySelector("#rate-five");
 const openModalButton = document.querySelectorAll("[data-modal-target]");
 const closeModalButton = document.querySelectorAll("[data-close-button]");
 const overlay = document.getElementById("overlay");
+
 const Rates = [];
+
+
 
 rateButtonOne.onclick = () => {
   const rate = rateButtonOne.value;
@@ -99,3 +102,4 @@ function closeModal(modal) {
 }
 
 console.log(Rates);
+

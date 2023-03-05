@@ -161,6 +161,9 @@ header {
   background: white;
   margin-top: 8px;
 }
+#main-btn a {
+  all: unset;
+}
 
 .bottom-grad {
   margin-left: -15px;
