@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+    
+    <header>
+        <img src="./img/Instagram story - 15.png" alt="logo">
+    </header>
+
+    <main>
+        <button data-modal-target="#modal" class="rate-btn" id="rate-one" value="1">1</button>
+        <button data-modal-target="#modal" class="rate-btn" id="rate-two" value="2">2</button>
+        <button data-modal-target="#modal" class="rate-btn" id="rate-three" value="3">3</button>
+        <button data-modal-target="#modal" class="rate-btn" id="rate-four" value="4">4</button>
+        <button data-modal-target="#modal" class="rate-btn" id="rate-five" value="5">5</button>
+
+    </main>
+    <div class="modal" id="modal">
+        <div class="modal-header">
+            <button data-close-button class="close-modal-btn">
+                &times;
+            </button>
+        </div>
+        <h1>дякуємо за ваш відгук!</h1>
+    </div>
+    <div id="overlay"></div>
+
+</body>
+</html>
